@@ -17,4 +17,10 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.sub(10,1), 9);
 	}
+	
+	@Test
+	void testDoubleAdd() {
+		Calculator c = new Calculator();
+		assertEquals(c.doubleadd(2.5, 2.5), 5.0);
+	}
 }

@@ -8,6 +8,9 @@ public class Calculator {
 	public int sub(int a, int b) {
 		return a-b;
 	}
+	public double doubleadd(double a, double b) {
+		return a+b;
+	}
 	
 }
 
